@@ -13,9 +13,9 @@ function App() {
   return (
     <Provider store={store}>
     <div className="App">
-      <UserContainer /> 
+    <UserContainer /> 
     <ItemContainer cake />
-    <ItemContainer />
+    <ItemContainer iceCream />
       <HooksCakeContainer />
       <CakeContainer />
       <IceCreamContainer />
